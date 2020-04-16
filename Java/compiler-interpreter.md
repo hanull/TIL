@@ -4,7 +4,7 @@
 
 ## 컴파일러(Compiler)
 
-![](../../assets/compiler.png)
+![](https://github.com/hanull/TIL/blob/master/Java/img/compiler.png)
 
 한 언어에서 다른 언어로 번역하는 프로그램을 `컴파일러`라고 부른다. 컴파일러는 무조건 기계어로 번역 할 필요는 없다. 예를들어 자바 -> C언어로 번역하는 번역기도 컴파일러이다. 여기서은 고급언어에서 기계어로 번역하는 컴파일러에 대해 이야기 하겠다. 컴파일러를 실행시키면 보통 번역해야 할 언어의 파일들과 번역 결과를 저장 할 파일의 이름을 받는다. 그리고 그 파일들을 모두 번역해서 하나의 바이너리(또는 어셈블리)파일로 저장한다. 그러면 이후에 사용자가 이 바이너리 파일을 실행시키면 프로그램이 실행되는 것이다.
 
@@ -19,7 +19,7 @@
 
 ## 인터프리터(Interpreter)
 
-![](../../assets/interpreter.png)
+![](https://github.com/hanull/TIL/blob/master/Java/img/interpreter.png)
 
 인터프리터는 번역해야 할 파일을 받아 한 줄씩 실행시킨다. 예를들어 배시 인터프리터를 실행시키면 배시 인터프리터가 해당 파일의 첫번째 줄을 읽어 기계어 명령어로 번역 한 후 CPU에 바로 돌린다.
 
@@ -38,10 +38,7 @@
 
 대표적인 하이브리드 형태로 작동하는 언어로는 자바가 있으며 JVM을 사용하여 프로그램을 돌린다.
 
-JVM에 대해 자세히 알고 싶다면 이 글을 참고하길 바란다. [JVM이란?](https://hanul-dev.netlify.com/java/%EC%9E%90%EB%B0%94%EA%B0%80%EB%A8%B8%EC%8B%A0(jvm)%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80/)
-
-
-![](../../assets/hybrid.png)
+![](https://github.com/hanull/TIL/blob/master/Java/img/hybrid.png)
 
 temp.java는 컴파일시 temp.class라는 파일로 컴파일된다. 자바 컴파일러는 java를 16진수로 된 바이트코드(bytecode)라는 class파일로 컴파일한다. 그리고 자바 인터프리터가 자바를 실행 시 이 바이트코드를 한 줄씩 기계어로 번역해 CPU에 실행시킨다. 이 인터프리터는 JVM의 일부로 동작한다. 또 자바는 인터프리터의 단적을 극복하기 위해 JIT(Just-in-Time)컴파일러라는 것을 사용해 자주 사용되는 바이트코드를 기계어로 컴파일 해 사용한다. 이 점이 바로 자바를 하이브리드로 만든다.
 

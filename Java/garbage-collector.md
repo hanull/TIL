@@ -1,4 +1,4 @@
-JVM이 메모리를 관리하는 방법인 Garbage Collector와 Mark & Sweep 에 대해 설명하도록 한다. 이에 앞서 JVM의 메모리 관리방법을 알기 위해서는 JVM이 무엇인지에 대해 먼저 알아야한다. [JVM이란 무엇인가?](https://hanul-dev.netlify.com/java/%EC%9E%90%EB%B0%94%EA%B0%80%EB%A8%B8%EC%8B%A0(jvm)%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80/)
+JVM이 메모리를 관리하는 방법인 Garbage Collector와 Mark & Sweep 에 대해 설명하도록 한다. 이에 앞서 JVM의 메모리 관리방법을 알기 위해서는 JVM이 무엇인지에 대해 먼저 알아야한다.
 
 ## 가비지란?
 다음 코드를 보고 여기서 말하는 `가비지`가 무엇인지 생각해보자.
@@ -22,7 +22,7 @@ JVM이 할당된 모든 메모리를 가지고 있고, 이를 관리한다는 �
 3. 마킹되지 않은 객체를 Heap에서 제거한다.
 첫번째와 두번째 과정은 객체를 찾아 마킹하는 과정이라하여 `Mark`라 하고, 세번째 과정은 객체를 쓸어내린다고하여 `Sweep`이라고 한다. 그래서 가비지 컬렉터의 과정을 `Mark and Sweep`이라고도 한다.
 
-![](../../assets/runtimearea_heap.png)
+![](https://github.com/hanull/TIL/blob/master/Java/img/runtimearea_heap.png)
 
 ## New/ Young 영역
 - Eden : 객체들이 최초로 생성되는 공간.

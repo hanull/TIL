@@ -17,7 +17,7 @@ JVM이란, 자바 가상 머신의 약자를 줄여 부르는 용어이다.
 4. 로딩된 class 파일들은 Execution engine을 통해 해석된다.
 5. 해석된 바이트코드(.class)는 Runtime Data Areas에 배치되고 수행이 이루어지게 된다. 이러한 과정속에서 JVM은 필요에 따라 GC 같은 관리 작업을 수행한다.
 
-![](../../assets/jvm.png)
+![](https://github.com/hanull/TIL/blob/master/Java/img/jvm.png)
 
 ### Java Compiler
 자바 소스(.java)코드를 Byte code(.class)로 변환하는 역할을 한다.
@@ -38,7 +38,7 @@ JVM이란, 자바 가상 머신의 약자를 줄여 부르는 용어이다.
 ### Runtime Data Areas
 런타임 데이터 영역은 프로그램을 수행하기 위해 OS에서 할당받는 메모리 영역이다. 런타임 데이터 영역은 5개의 영역으로 나눌 수 있다. 이중 PC 레지스터(PC Register), JVM 스택(JVM Stack), 네이티브 메서드 스택(Native Method Stack)은 스레드마다 하나씩 생성되며 힙(Heap), 메서드 영역(Method Area) 은 모든 스레드가 공유해서 사용한다.
 
-![](../../assets/runtimearea.png)
+![](https://github.com/hanull/TIL/blob/master/Java/img/runtimearea.png)
 
 ### PC Register
 스레드가 시작될 때 생성된다. PC레지스터는 Thread가 어떤 명령어로 실행되어야 할지에 대한 기록을 하는 부분으로 현재 수행중인 JVM명령의 주소를 갖는다.
@@ -50,7 +50,7 @@ JVM이란, 자바 가상 머신의 약자를 줄여 부르는 용어이다.
 일반적으로 JVM은 네이티브 방식을 지원한다. 따라서 스레드에서 네이티브 방식의 메소드가 실행되는 경우 Native Method Stack에 쌓인다. 일반적인 메소드를 실행하는 경우 JVM 스택에 쌓이다가 해당 메소드 내부에 네이티브 방식을 사용하는 메소드(예를 들면 C언어로 작성된 메소드)가 있다면 해당 메소드는 네이티브 스택에 쌓인다.
 
 ### Heap Area
-동적으로 할당되는 데이터가 저장되는 영역이다. 예를들어 객체생, 배열등이 생성되었을 때 저장되는 공간이다. Heap에 할당된 데이터는 GC의 대상입니다. JVM 성능 등의 이슈에서 가장 많이 언급되는 공간이다. GC에 대해 자세히 알고싶다면 참고하길 바란다.[GC이란?](https://hanul-dev.netlify.com/java/%EA%B0%80%EB%B9%84%EC%A7%80-%EC%BB%AC%EB%A0%89%ED%84%B0(gc)%EC%99%80-mark-&-sweep-%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC/)
+동적으로 할당되는 데이터가 저장되는 영역이다. 예를들어 객체생, 배열등이 생성되었을 때 저장되는 공간이다. Heap에 할당된 데이터는 GC의 대상입니다. JVM 성능 등의 이슈에서 가장 많이 언급되는 공간이다.
 
 ### Method Area(Class Area, Code Area, Static Area)
 메서드 영역은 모든 스레드가 공유하는 영역으로 JVM이 시작될 때 생성된다. JVM이 읽어 들인 각각의 클래스와 인터페이스에 대한 런타임 상수 풀, 필드와 메서드 코드, Static 변수, 메서드의 바이트코드 등을 보관한다.
