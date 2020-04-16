@@ -16,10 +16,10 @@
 ### Algorithm & Data Sturcture
 
 ### Java
-- [가비지 컬렉터(GC)는 무엇인가?]()
-- [객체, 클래스, 인스턴스의 차이점이 무엇인가?]()
-- [자바가상머신(JVM)이란 무엇인가?]()
-- [인터프리터(interpreter)와 컴파일러(compiler)에 대해 알아보자]()
+- [가비지 컬렉터(GC)는 무엇인가?](https://github.com/hanull/TIL/blob/master/Java/garbage-collector.md)
+- [객체, 클래스, 인스턴스의 차이점이 무엇인가?](https://github.com/hanull/TIL/blob/master/Java/Object-Class-Instance.md)
+- [자바가상머신(JVM)이란 무엇인가?](https://github.com/hanull/TIL/blob/master/Java/jvm.md)
+- [인터프리터(interpreter)와 컴파일러(compiler)에 대해 알아보자](https://github.com/hanull/TIL/blob/master/Java/compiler-interpreter.md)
 
 ### Spring
 
