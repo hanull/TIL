@@ -11,18 +11,22 @@
 
 <hr>
 
-## ETC
+### ETC
 
-## Algorithm & Data Sturcture
+### Algorithm & Data Sturcture
 
-## Java
+### Java
+- [가비지 컬렉터(GC)는 무엇인가?]()
+- [객체, 클래스, 인스턴스의 차이점이 무엇인가?]()
+- [자바가상머신(JVM)이란 무엇인가?]()
+- [인터프리터(interpreter)와 컴파일러(compiler)에 대해 알아보자]()
 
-## Spring
+### Spring
 
-## Git
+### Git
 
-## Design Pattern
+### Design Pattern
 
-## OS
+### OS
 
-## Network
+### Network
