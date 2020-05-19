@@ -12,7 +12,9 @@
 
 ### ETC
 
-### Algorithm & Data Sturcture
+### Algorithm
+
+### Data Sturcture
 
 ### Java
 - [가비지 컬렉터(GC)는 무엇인가?](https://github.com/hanull/TIL/blob/master/Java/garbage-collector.md)
