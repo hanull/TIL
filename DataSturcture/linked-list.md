@@ -23,7 +23,7 @@
 
 
 ### 연결 리스트 구현
-#### 노드 생성
+#### 1. 노드 생성
 나중에 연산 횟수를 줄이기 위해 head, tail, size 값을 갱신해 나가는 방법으로 구현했다.
 data는 노드의 인풋값이고, next는 다음 노드를 가르키는 참조값이다.
 
@@ -47,7 +47,7 @@ public class LinkedList {
 }
 ```
 
-### 데이터 추가
+#### 2. 데이터 추가
 - 노드의 가장 앞쪽에 추가
 
 ```java
@@ -78,7 +78,7 @@ public void addLast(Object input) {
 }
 ```
 
-#### 특정 노드 찾기
+#### 3. 특정 노드 찾기
 
 ```java
 public Node searchNode(int idx) {
@@ -92,7 +92,7 @@ public Node searchNode(int idx) {
 }
 ```
 
-#### 노드의 중간에 데이터 추가
+#### 4. 노드의 중간에 데이터 추가
 
 ```java
 public void addNode(int idx, Object input) {
@@ -113,7 +113,7 @@ public void addNode(int idx, Object input) {
 }
 ```
 
-#### 리스트 출력
+#### 5. 리스트 출력
 
 ```java
 public void printList() {
