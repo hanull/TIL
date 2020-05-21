@@ -126,4 +126,59 @@ public void printList() {
 }
 ```
 
+#### 6. 리스트 삭제
+
+```java
+public void deleteFirst() {
+	Node delNode = null;
+	if (size == 0)
+	return ;
+	if (size == 1) {
+	head = null;
+	tail = null;
+	size = 0;
+	}else {
+	delNode = head;
+	Node tmp = delNode.next;
+	head = tmp;
+	delNode = null;
+	size--;
+	}
+}
+```
+
+```java
+public void deleteLast() {
+	if (size == 0)
+	return ;
+	if (size == 1) {
+	deleteFirst();
+	}else {
+	Node preNode = searchNode(size - 2);
+	preNode.next = null;
+	tail = preNode;
+	size--;
+	}
+}
+```
+
+```java
+public void deleteNode(int idx) {
+	if (size == 0 || idx < 0)
+	return ;
+	if (idx == 0 || size == 1) {
+	deleteFirst();
+	}else if (idx >= size - 1) {
+	deleteLast();
+	}else {
+	Node delNode = searchNode(idx);
+	Node NextNode = delNode.next;
+	Node preNode = searchNode(idx - 1);
+	preNode.next = NextNode;
+	delNode.next = null;
+	size--;
+	}
+}
+```
+
 만약 System.out.print()를 통해 리스트를 출력하고 싶다면 toString() 오버라이딩하여 사용하면 된다.
