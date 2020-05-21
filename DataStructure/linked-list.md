@@ -113,20 +113,7 @@ public void addNode(int idx, Object input) {
 }
 ```
 
-#### 5. 리스트 출력
-
-```java
-public void printList() {
-	Node tmp = head;
-	while (tmp != null) {
-	System.out.print(tmp.data + " ");
-	tmp = tmp.next;
-	}
-	System.out.println();
-}
-```
-
-#### 6. 리스트 삭제
+#### 5. 리스트 삭제
 
 ```java
 public void deleteFirst() {
@@ -178,6 +165,19 @@ public void deleteNode(int idx) {
 	delNode.next = null;
 	size--;
 	}
+}
+```
+
+#### 6. 리스트 출력
+
+```java
+public void printList() {
+	Node tmp = head;
+	while (tmp != null) {
+	System.out.print(tmp.data + " ");
+	tmp = tmp.next;
+	}
+	System.out.println();
 }
 ```
 
