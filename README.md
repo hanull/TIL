@@ -18,6 +18,7 @@
 ### Data Sturcture
 - [연결 리스트(linked list)](https://github.com/hanull/TIL/blob/master/DataStructure/linked-list.md)
 - [Array, ArrayList, LinkedList](https://github.com/hanull/TIL/blob/master/DataStructure/Array-ArrayList-LinkedList.md)
+- [스택(stack)](https://github.com/hanull/TIL/blob/master/DataStructure/stack.md)
 
 ### Java
 - [가비지 컬렉터(GC)는 무엇인가?](https://github.com/hanull/TIL/blob/master/Java/garbage-collector.md)
