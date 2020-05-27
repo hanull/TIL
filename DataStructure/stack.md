@@ -157,7 +157,11 @@ public class LinkedList_Stack implements Stack{
       throw new EmptyStackException();
     }else {
       Object data = peek();
-      top = top.next;
+      if (top == bottom) {
+        top = bottom = null;
+      }else {
+        top = top.next;
+      }
       stackSize--;
       return (data);
     }
