@@ -59,7 +59,7 @@ public class Array_Stack implements Stack{
       throw new IndexOutOfBoundsException("Empty stack");
     }else {
       Object res = peek();
-      stackArray[index] = null;
+      stackArray[index-1] = null;
       index--;
       return (res);
     }
@@ -93,8 +93,10 @@ public class Array_Stack implements Stack{
     if (isEmpty()) {
       System.out.println("Stack is empty");
     }else {
-      for(int i=0; i<index; i++) {
+      int i=0;
+      while(stackArray[i] != null) {
         System.out.println(stackArray[i]);
+        i++;
       }
     }
   }
