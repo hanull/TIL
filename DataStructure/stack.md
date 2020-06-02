@@ -14,7 +14,7 @@
 - 실행 취소
 - 수식의 괄호 검사 (연산자 우선순위 표현을 위한 괄호 검사)
   - Ex) 올바른 괄호 문자열(VPS, Valid Parenthesis String) 판단하기
-- 후위 표기법 계산
+- 후위 표기법 계산 [구현 코드 보기](https://github.com/hanull/DataStructures/blob/master/stack/postfix_notation/Solution.java)
 
 ## 스택(stack) 구현
 먼저 인터페이스를 생성한 뒤 메소드를 구현하였다.
