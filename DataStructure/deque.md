@@ -1,35 +1,28 @@
 ## 덱(deque) 개념
-- 삽입은 한쪽 끝에서, 삭제는 반대쪽 끝에서만 일어난다.
-- FIFO(First In First Out, 선입선출) : 가장 먼저 들어온 것이 가장 먼저 나오는 형식.
-- 큐의 가장 첫 원소를 front, 끝 원소를 rear라고 부름.
-- 데이터는 큐의 rear쪽으로 들어오고, front 부터 빠지게 된다.
+- double-ended queue의 줄임말로, 큐의 앞과 뒤 모두에서 삽입 및 삭제가 가능한 큐를 말한다.
+- 큐와 스택을 합친 형태로 생각할 수 있다.
+- 큐나 스택보다 유연하다.
+- 보통 두가지 중(스크롤/셀프) 하나로 사용하게 된다. (입력과 출력을 추가하는 방식으로 사용)
+
+## 덱(deque) 종류
+- 스크롤(Scroll) : 입력이 한쪽에서만 가능하고, 출력은 양쪽에서 모두 가능하도록 제한한 덱(입력 제한)
+- 셀프(Shelf) : 출력이 한쪽에서만 가능하고, 입력이 양쪽에서 모두 가능하도록 제한한 덱(출력 제한)
 
 ## 덱(deque) 연산
-- enqueue(data) : 데이터를 리스트의 끝 부분에 추가한다.
-- dequeue()	: 리스트의 첫 번째 데이터를 삭제한다.
-- peek()	: 큐의 첫 번째 데이터를 반환한다.
-- isEmpty()	: 큐가 	비어있을 경우 true를 반환한다.
+- addFirst() : 덱의 앞에 데이터를 삽입
+- addLast() : 덱의 뒤에 데이터를 삽입
+- removeFirst() : 덱의 앞에 데이터를 삭제
+- removeLast() : 덱의 뒤에 데이터를 삭제
+- getFirst() : 덱의 앞쪽 엘리먼트를 리턴
+- getLast() : 덱의 뒤쪽 엘리먼트를 리턴
 
 ## 덱(deque) 사용 사례
-***데이터가 입력된 시간 순서대로 처리해야 할 필요가 있는 상황에서 사용.***
-- cpu 스케줄링	: 멀티테스킹 환경에서 프로세스들은 큐에서 cpu가 할당되기를 기다린다.
-- 버퍼			: 네트워크를 통해 전송되는 패킷들은 도착 순서대로 버퍼에 저장되어 처리되기를 기다린다.
-- bfs			: 처리할 리스트를 저장하는 용도로 사용. 노드를 하나 처리할 때마다 해당 노드와 인접한 노드를 다시 큐에 저장.
-- 프린터의 출력
-- 티켓 카운터
-
+- 스케줄링
+  - 스케줄링이 복잡해질수록 큐와 스택보다 덱이 더 효율이 잘 나오는 경우가 있음
+- 우선순위를 조절하게 될 때
+  - ex) 옛날에 있던걸 우선순위를 높이기 위해서는 앞에서 빼낼수 있어야 되는데 스택에서는 불가능함
+  - ex) 최근에 들어온걸 우선순위를주고 싶은데 이 역시 큐의 구조에서는 불가능함
+  - 결국 앞뒤로 다 인출이 가능한 덱(Deque)만이 이 조건을 충족시킴
 
 ## 덱(deque) 구현
-
-```java
-public interface Queue {
-  void enqueue(T data);
-  T dequeue();
-  T peek();
-  boolean isEmpty();
-}
-```
-
-- [배열로 큐 구현하기](https://github.com/hanull/DataStructures/blob/master/queue/Array_Queue.java)
-- [스택으로 큐 구현하기](https://github.com/hanull/DataStructures/blob/master/queue/Stack_Queue.java)
-- [연결 리스트로 큐 구현하기](https://github.com/hanull/DataStructures/blob/master/queue/LinkedList_Queue.java)
+- [연결 리스트로 덱 구현](https://github.com/hanull/DataStructures/blob/master/deque/LinkedList_Deque.java)
