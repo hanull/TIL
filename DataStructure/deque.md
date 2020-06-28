@@ -9,12 +9,13 @@
 - 셀프(Shelf) : 출력이 한쪽에서만 가능하고, 입력이 양쪽에서 모두 가능하도록 제한한 덱(출력 제한)
 
 ## 덱(deque) 연산
-- addFirst() : 덱의 앞에 데이터를 삽입
-- addLast() : 덱의 뒤에 데이터를 삽입
-- removeFirst() : 덱의 앞에 데이터를 삭제
-- removeLast() : 덱의 뒤에 데이터를 삭제
-- getFirst() : 덱의 앞쪽 엘리먼트를 리턴
-- getLast() : 덱의 뒤쪽 엘리먼트를 리턴
+- offerFirst() : 덱의 앞에 데이터를 삽입
+- offerLast() : 덱의 뒤에 데이터를 삽입
+- peekFirst() : 덱의 앞에 데이터를 리턴
+- peekLast() : 덱의 뒤에 데이터를 리턴
+- pollFirst() : 덱의 앞에 데이터를 리턴 및 삭제
+- pollLast() : 덱의 뒤에 데이터를 리턴 및 삭제
+- getSize() : 덱의 사이즈 리턴
 
 ## 덱(deque) 사용 사례
 - 스케줄링
