@@ -21,6 +21,10 @@
 - [스택(stack)](https://github.com/hanull/TIL/blob/master/DataStructure/stack.md)
 - [큐(Queue)](https://github.com/hanull/TIL/blob/master/DataStructure/Queue.md)
 - [덱(Deque)](https://github.com/hanull/TIL/blob/master/DataStructure/deque.md)
+- [트리(tree)](https://github.com/hanull/TIL/blob/master/DataStructure/tree.md)
+- [이진 탐색 트리(BST, Binary Search Tree))](https://github.com/hanull/TIL/blob/master/DataStructure/BST.md)
+- [힙(heap)](https://github.com/hanull/TIL/blob/master/DataStructure/heap.md)
+- [trie](https://github.com/hanull/TIL/blob/master/DataStructure/trie.md)
 
 ### Java
 - [가비지 컬렉터(GC)는 무엇인가?](https://github.com/hanull/TIL/blob/master/Java/garbage-collector.md)
