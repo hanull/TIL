@@ -32,6 +32,7 @@
 - [자바가상머신(JVM)이란 무엇인가?](https://github.com/hanull/TIL/blob/master/Java/jvm.md)
 - [인터프리터(interpreter)와 컴파일러(compiler)에 대해 알아보자](https://github.com/hanull/TIL/blob/master/Java/compiler-interpreter.md)
 - [추상 클래스(abstract class)란??](https://github.com/hanull/TIL/blob/master/Java/abstract-class.md)
+- [Java equals(),  hashCode()에 대해](https://github.com/hanull/TIL/blob/master/Java/equals-hashcode.md)
 
 ### Spring
 
