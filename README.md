@@ -9,10 +9,30 @@
 
 <hr>
 
-### ETC
+### OS
+- [시스템 콜](https://github.com/hanull/TIL/blob/master/Operating%20System/%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%BD%9C.md)
+- [PCB & Context Switching](https://github.com/hanull/TIL/blob/master/Operating%20System/PCB%20%26%20Context%20Switching.md)
+- [IPC](https://github.com/hanull/TIL/blob/master/Operating%20System/IPC.md)
+- [메모리 관리]()
 
-### Algorithm
+### Network
+- [HTTP & HTTPS](https://github.com/hanull/TIL/blob/master/Network/http%20%26%20https.md)
+- [Get & Post](https://github.com/hanull/TIL/blob/master/Network/Get%26Post.md)
+- [TCP & UDP](https://github.com/hanull/TIL/blob/master/Network/TCP%26UDP.md)
+- [쿠키 & 세션](https://github.com/hanull/TIL/blob/master/Network/%EC%BF%A0%ED%82%A4%20%26%20%EC%84%B8%EC%85%98.md)
 
+## ✨ DataBase
+- [Statement vs PreparedStatement](https://github.com/hanull/TIL/blob/master/Database/Statement%20vs%20PreparedStatement.md)
+
+### Java
+- [가비지 컬렉터(GC)는 무엇인가?](https://github.com/hanull/TIL/blob/master/Java/garbage-collector.md)
+- [객체, 클래스, 인스턴스의 차이점이 무엇인가?](https://github.com/hanull/TIL/blob/master/Java/Object-Class-Instance.md)
+- [자바가상머신(JVM)이란 무엇인가?](https://github.com/hanull/TIL/blob/master/Java/jvm.md)
+- [인터프리터(interpreter)와 컴파일러(compiler)에 대해 알아보자](https://github.com/hanull/TIL/blob/master/Java/compiler-interpreter.md)
+- [추상 클래스(abstract class)란??](https://github.com/hanull/TIL/blob/master/Java/abstract-class.md)
+- [Java equals(),  hashCode()에 대해](https://github.com/hanull/TIL/blob/master/Java/equals-hashcode.md)
+
+### Spring
 
 ### Data Sturcture
 - [연결 리스트(linked list)](https://github.com/hanull/TIL/blob/master/DataStructure/linked-list.md)
@@ -25,20 +45,11 @@
 - [힙(heap)](https://github.com/hanull/TIL/blob/master/DataStructure/heap.md)
 - [trie](https://github.com/hanull/TIL/blob/master/DataStructure/trie.md)
 
-### Java
-- [가비지 컬렉터(GC)는 무엇인가?](https://github.com/hanull/TIL/blob/master/Java/garbage-collector.md)
-- [객체, 클래스, 인스턴스의 차이점이 무엇인가?](https://github.com/hanull/TIL/blob/master/Java/Object-Class-Instance.md)
-- [자바가상머신(JVM)이란 무엇인가?](https://github.com/hanull/TIL/blob/master/Java/jvm.md)
-- [인터프리터(interpreter)와 컴파일러(compiler)에 대해 알아보자](https://github.com/hanull/TIL/blob/master/Java/compiler-interpreter.md)
-- [추상 클래스(abstract class)란??](https://github.com/hanull/TIL/blob/master/Java/abstract-class.md)
-- [Java equals(),  hashCode()에 대해](https://github.com/hanull/TIL/blob/master/Java/equals-hashcode.md)
 
-### Spring
+### Algorithm
 
 ### Git
 
 ### Design Pattern
 
-### OS
-
-### Network
+### ETC
