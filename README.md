@@ -21,7 +21,7 @@
 - [TCP & UDP](https://github.com/hanull/TIL/blob/master/Network/TCP%26UDP.md)
 - [쿠키 & 세션](https://github.com/hanull/TIL/blob/master/Network/%EC%BF%A0%ED%82%A4%20%26%20%EC%84%B8%EC%85%98.md)
 
-## ✨ DataBase
+### DataBase
 - [Statement vs PreparedStatement](https://github.com/hanull/TIL/blob/master/Database/Statement%20vs%20PreparedStatement.md)
 
 ### Java
