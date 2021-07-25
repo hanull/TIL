@@ -23,6 +23,7 @@
 
 ### DataBase
 - [Statement vs PreparedStatement](https://github.com/hanull/TIL/blob/master/Database/Statement%20vs%20PreparedStatement.md)
+- [샤딩(Sharding) & 파티셔닝(Partitioning)](https://github.com/hanull/TIL/blob/master/Database/%EC%83%A4%EB%94%A9%20%26%20%ED%8C%8C%ED%8B%B0%EC%85%94%EB%8B%9D.md)
 
 ### Java
 - [가비지 컬렉터(GC)는 무엇인가?](https://github.com/hanull/TIL/blob/master/Java/garbage-collector.md)
