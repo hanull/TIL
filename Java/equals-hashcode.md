@@ -1,9 +1,31 @@
+## ==
+두 객체의 `주소가 같은지` 검사
+
 ## equals()
 두 객체의 `내용이 같은지` 검사하는 메소드
 
+```java
+String stringA = "hello";
+String stringB = "hello";
+String stringC = new String("hello");
+
+System.out.println("stringA == stringB : " + (stringA == stringB));
+System.out.println("stringB == stringC : " + (stringB == stringC));
+System.out.println("stringA.equals(stringB) : " + stringA.equals(stringB));
+System.out.println("stringB.equals(stringC) : " + stringB.equals(stringC));
+```
+
+```
+stringA == stringB : true
+stringB == stringC : false
+stringA.equals(stringB) : true
+stringB.equals(stringC) : true
+```
+
+
+
 ## hashCode()
 두 객체가 `같은 객체인지` 검사하는 메소드
-
 
 
 ```java
@@ -19,15 +41,13 @@ class Member{
 ```
 
 ```java
-public static void main(String[] args) {
-    Map<Member, Integer> map = new HashMap<>();
-    Member s1 = new Member(1, "hanul");
-    Member s2 = new Member(1, "hanul");
-    map.put(s1, 1);
-    map.put(s2, 1);
-    System.out.println(s1==s2);
-    System.out.println(s1.equals(s2));
-}
+Map<Member, Integer> map = new HashMap<>();
+Member member1 = new Member(1, "hanul");
+Member member2 = new Member(1, "hanul");
+map.put(member1, 1);
+map.put(member2, 1);
+System.out.println(member1 == member2);
+System.out.println(member1.equals(member2));
 ```
 
 ```
@@ -42,17 +62,17 @@ equals 메소드를 `@Override`한다.
 
 ```java
 @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Member member = (Member) o;
-        return id == member.id &&
-                Objects.equals(name, member.name);
-    }
+public boolean equals(Object o) {
+    if (this == o) return true;
+    if (o == null || getClass() != o.getClass()) return false;
+    Member member = (Member) o;
+    return id == member.id &&
+            Objects.equals(name, member.name);
+}
 ```
 
 ```java
-System.out.println(s1.equals(s2));  // true
+System.out.println(member1.equals(member2));  // true
 ```
 
 두 객체의 내용이 같은지를 equals 오버라이드를 통해 해결했다. 그러면 이제 같은 것일까?? 
@@ -79,10 +99,9 @@ public int hashCode() {
 ```
 
 ```java
-System.out.println(s1.hashCode());  //  99046348
-System.out.println(s2.hashCode());  //  99046348
+System.out.println(member1.hashCode());  //  99046348
+System.out.println(member2.hashCode());  //  99046348
 ```
-
 
 ## String
 
