@@ -38,6 +38,9 @@
 
 ### Spring
 
+### JPA
+-[](https://github.com/hanull/TIL/blob/master/JPA/JPA%20%EC%97%B0%EA%B4%80%20%EA%B4%80%EA%B3%84%20%EB%A7%A4%ED%95%91.md)
+
 ### Data Sturcture
 - [연결 리스트(linked list)](https://github.com/hanull/TIL/blob/master/DataStructure/linked-list.md)
 - [Array, ArrayList, LinkedList](https://github.com/hanull/TIL/blob/master/DataStructure/Array-ArrayList-LinkedList.md)
