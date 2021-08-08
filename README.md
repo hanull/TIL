@@ -56,6 +56,8 @@
 ### Algorithm
 
 ### Git
+- [git-flow 사용법](https://github.com/hanull/TIL/blob/master/git/git-flow%20%EC%82%AC%EC%9A%A9%EB%B2%95.md)
+- [git commit 내역 수정하기](https://github.com/hanull/TIL/blob/master/git/git%20commit%20%EB%82%B4%EC%97%AD%20%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0.md)
 
 ### Design Pattern
 
