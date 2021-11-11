@@ -58,7 +58,13 @@
 ### Git
 - [git-flow 사용법](https://github.com/hanull/TIL/blob/master/git/git-flow%20%EC%82%AC%EC%9A%A9%EB%B2%95.md)
 - [git commit 내역 수정하기](https://github.com/hanull/TIL/blob/master/git/git%20commit%20%EB%82%B4%EC%97%AD%20%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0.md)
+- [gitignore 적용 안될 때 해결방법](https://github.com/hanull/TIL/blob/master/git/gitignore%20%EC%A0%81%EC%9A%A9%EC%9D%B4%20%EC%95%88%EB%90%A0%20%EB%95%8C.md)
+
 
 ### Design Pattern
 
+
+### 블록체인
+- [블록체인 & 이더리움](https://github.com/hanull/TIL/blob/master/blockchain/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%20%26%20%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80.md)
+- [solidity uint256 -> java LocalDateTime으로 변경하기](https://github.com/hanull/TIL/blob/master/blockchain/solidity%20uint%20%ED%83%80%EC%9E%85%EC%9D%84%20java%20LocalDateTime%EC%9C%BC%EB%A1%9C%20%EB%B3%80%EA%B2%BD.md)
 ### ETC
