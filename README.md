@@ -68,3 +68,4 @@
 - [블록체인 & 이더리움](https://github.com/hanull/TIL/blob/master/blockchain/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%20%26%20%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80.md)
 - [solidity uint256 -> java LocalDateTime으로 변경하기](https://github.com/hanull/TIL/blob/master/blockchain/solidity%20uint%20%ED%83%80%EC%9E%85%EC%9D%84%20java%20LocalDateTime%EC%9C%BC%EB%A1%9C%20%EB%B3%80%EA%B2%BD.md)
 ### ETC
+- [자바 버전 변경하기](https://github.com/hanull/TIL/blob/master/ETC/%EC%9E%90%EB%B0%94%20%EB%B2%84%EC%A0%84%20%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0.md)
