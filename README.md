@@ -35,6 +35,7 @@
 - [컬렉션 프레임워크 정리](https://github.com/hanull/TIL/blob/master/Java/%EC%BB%AC%EB%A0%89%EC%85%98%20%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC.md)
 - [인터페이스와 추상클래스 차이](https://github.com/hanull/TIL/blob/master/Java/%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%EC%99%80%20%EC%B6%94%EC%83%81%ED%81%B4%EB%9E%98%EC%8A%A4%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)
 - [call by reference & call by value](https://github.com/hanull/TIL/blob/master/Java/Call%20by%20Reference%EC%99%80%20Call%20by%20Value%20%EC%B0%A8%EC%9D%B4.md)
+- [상수를 관리하는 방법과 enum 등장 배경](https://github.com/hanull/TIL/blob/master/Java/%EC%83%81%EC%88%98%EB%A5%BC%20%EA%B4%80%EB%A6%AC%ED%95%98%EB%8A%94%20%EB%B0%A9%EB%B2%95%EA%B3%BC%20enum%20%EB%93%B1%EC%9E%A5%20%EB%B0%B0%EA%B2%BD.md)
 
 ### Spring
 
