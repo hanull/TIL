@@ -1,14 +1,3 @@
-# Today I Learned(TIL)
-[![Version](https://img.shields.io/badge/version-2020.04.16-red.svg)](./CHANGELOG)  [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](./LICENSE)  [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/hanull/TIL)](https://hits.seeyoufarm.com/)
-
-## "Slow and steady wins the race"
-- 학습한 내용, 알게된 내용 모든 것을 이해한 만큼 기록한다.
-- 탄탄한 기본기를 갖추고, 변화하는 기술에 대한 지속적인 관심과 학습을 통해 배움을 멈추지 않는 것이 목표이다.
-
-> [namjunemy](https://github.com/namjunemy/TIL)님과 [Integerous](https://github.com/Integerous/TIL)님의 TIL을 참고하였다.
-
-<hr>
-
 ### OS
 - [시스템 콜](https://github.com/hanull/TIL/blob/master/Operating%20System/%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%BD%9C.md)
 - [PCB & Context Switching](https://github.com/hanull/TIL/blob/master/Operating%20System/PCB%20%26%20Context%20Switching.md)
@@ -38,11 +27,13 @@
 - [상수를 관리하는 방법과 enum 등장 배경](https://github.com/hanull/TIL/blob/master/Java/%EC%83%81%EC%88%98%EB%A5%BC%20%EA%B4%80%EB%A6%AC%ED%95%98%EB%8A%94%20%EB%B0%A9%EB%B2%95%EA%B3%BC%20enum%20%EB%93%B1%EC%9E%A5%20%EB%B0%B0%EA%B2%BD.md)
 - [Character Class 정적 메서드 정리](https://github.com/hanull/TIL/blob/master/Java/Character%20%ED%81%B4%EB%9E%98%EC%8A%A4%20%EC%A0%95%EC%A0%81%20%EB%A9%94%EC%84%9C%EB%93%9C.md)
 - [일급 컬렉션이란?](https://github.com/hanull/TIL/blob/master/Java/%EC%9D%BC%EA%B8%89%20%EC%BB%AC%EB%A0%89%EC%85%98%EC%9D%B4%EB%9E%80.md)
+- [자바 버전 변경하기](https://github.com/hanull/TIL/blob/master/ETC/%EC%9E%90%EB%B0%94%20%EB%B2%84%EC%A0%84%20%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0.md)
+
 
 ### Spring
 
 ### JPA
--[](https://github.com/hanull/TIL/blob/master/JPA/JPA%20%EC%97%B0%EA%B4%80%20%EA%B4%80%EA%B3%84%20%EB%A7%A4%ED%95%91.md)
+-[JPA 연관 관계 매핑](https://github.com/hanull/TIL/blob/master/JPA/JPA%20%EC%97%B0%EA%B4%80%20%EA%B4%80%EA%B3%84%20%EB%A7%A4%ED%95%91.md)
 
 ### Data Sturcture
 - [연결 리스트(linked list)](https://github.com/hanull/TIL/blob/master/DataStructure/linked-list.md)
@@ -55,20 +46,11 @@
 - [힙(heap)](https://github.com/hanull/TIL/blob/master/DataStructure/heap.md)
 - [trie](https://github.com/hanull/TIL/blob/master/DataStructure/trie.md)
 
-
-### Algorithm
-
 ### Git
 - [git-flow 사용법](https://github.com/hanull/TIL/blob/master/git/git-flow%20%EC%82%AC%EC%9A%A9%EB%B2%95.md)
 - [git commit 내역 수정하기](https://github.com/hanull/TIL/blob/master/git/git%20commit%20%EB%82%B4%EC%97%AD%20%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0.md)
 - [gitignore 적용 안될 때 해결방법](https://github.com/hanull/TIL/blob/master/git/gitignore%20%EC%A0%81%EC%9A%A9%EC%9D%B4%20%EC%95%88%EB%90%A0%20%EB%95%8C.md)
 
-
-### Design Pattern
-
-
 ### 블록체인
 - [블록체인 & 이더리움](https://github.com/hanull/TIL/blob/master/blockchain/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%20%26%20%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80.md)
 - [solidity uint256 -> java LocalDateTime으로 변경하기](https://github.com/hanull/TIL/blob/master/blockchain/solidity%20uint%20%ED%83%80%EC%9E%85%EC%9D%84%20java%20LocalDateTime%EC%9C%BC%EB%A1%9C%20%EB%B3%80%EA%B2%BD.md)
-### ETC
-- [자바 버전 변경하기](https://github.com/hanull/TIL/blob/master/ETC/%EC%9E%90%EB%B0%94%20%EB%B2%84%EC%A0%84%20%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0.md)
